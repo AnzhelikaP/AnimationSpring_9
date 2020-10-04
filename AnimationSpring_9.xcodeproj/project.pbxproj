@@ -3,38 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A244F428F8186B2661B3817 /* Pods_AnimationSpring_9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07E903C259DF4DA54879734 /* Pods_AnimationSpring_9.framework */; };
 		BB388CEC2529FF3900A0C989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB388CEB2529FF3900A0C989 /* AppDelegate.swift */; };
 		BB388CEE2529FF3900A0C989 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB388CED2529FF3900A0C989 /* SceneDelegate.swift */; };
 		BB388CF02529FF3900A0C989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB388CEF2529FF3900A0C989 /* ViewController.swift */; };
 		BB388CF32529FF3900A0C989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB388CF12529FF3900A0C989 /* Main.storyboard */; };
 		BB388CF52529FF4600A0C989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB388CF42529FF4600A0C989 /* Assets.xcassets */; };
 		BB388CF82529FF4600A0C989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB388CF62529FF4600A0C989 /* LaunchScreen.storyboard */; };
-		BB388D032529FF4700A0C989 /* AnimationSpring_9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB388D022529FF4700A0C989 /* AnimationSpring_9Tests.swift */; };
-		BB388D0E2529FF4700A0C989 /* AnimationSpring_9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB388D0D2529FF4700A0C989 /* AnimationSpring_9UITests.swift */; };
+		BB54D47E252A1EB8009E1312 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54D47D252A1EB8009E1312 /* DataManager.swift */; };
+		BB54D480252A2B7D009E1312 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54D47F252A2B7D009E1312 /* Animation.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BB388CFF2529FF4700A0C989 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB388CE02529FF3900A0C989 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB388CE72529FF3900A0C989;
-			remoteInfo = AnimationSpring_9;
-		};
-		BB388D0A2529FF4700A0C989 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB388CE02529FF3900A0C989 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB388CE72529FF3900A0C989;
-			remoteInfo = AnimationSpring_9;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		43448228586E69E5F14F7A60 /* Pods-AnimationSpring_9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationSpring_9.debug.xcconfig"; path = "Target Support Files/Pods-AnimationSpring_9/Pods-AnimationSpring_9.debug.xcconfig"; sourceTree = "<group>"; };
+		61EB222FEEAC51A164762FDE /* Pods-AnimationSpring_9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationSpring_9.release.xcconfig"; path = "Target Support Files/Pods-AnimationSpring_9/Pods-AnimationSpring_9.release.xcconfig"; sourceTree = "<group>"; };
+		B07E903C259DF4DA54879734 /* Pods_AnimationSpring_9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationSpring_9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB388CE82529FF3900A0C989 /* AnimationSpring_9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSpring_9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB388CEB2529FF3900A0C989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB388CED2529FF3900A0C989 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +30,12 @@
 		BB388CF42529FF4600A0C989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB388CF72529FF4600A0C989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB388CF92529FF4600A0C989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB388CFE2529FF4700A0C989 /* AnimationSpring_9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationSpring_9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB388D022529FF4700A0C989 /* AnimationSpring_9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSpring_9Tests.swift; sourceTree = "<group>"; };
 		BB388D042529FF4700A0C989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB388D092529FF4700A0C989 /* AnimationSpring_9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationSpring_9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB388D0D2529FF4700A0C989 /* AnimationSpring_9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSpring_9UITests.swift; sourceTree = "<group>"; };
 		BB388D0F2529FF4700A0C989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB54D47D252A1EB8009E1312 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BB54D47F252A2B7D009E1312 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,26 +43,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB388CFB2529FF4700A0C989 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB388D062529FF4700A0C989 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5A244F428F8186B2661B3817 /* Pods_AnimationSpring_9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15A3B760DDA7B3C18BEEA4A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43448228586E69E5F14F7A60 /* Pods-AnimationSpring_9.debug.xcconfig */,
+				61EB222FEEAC51A164762FDE /* Pods-AnimationSpring_9.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BB388CDF2529FF3900A0C989 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +66,8 @@
 				BB388D012529FF4700A0C989 /* AnimationSpring_9Tests */,
 				BB388D0C2529FF4700A0C989 /* AnimationSpring_9UITests */,
 				BB388CE92529FF3900A0C989 /* Products */,
+				15A3B760DDA7B3C18BEEA4A1 /* Pods */,
+				EA04E3B650B28E23F0249304 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				BB388CE82529FF3900A0C989 /* AnimationSpring_9.app */,
-				BB388CFE2529FF4700A0C989 /* AnimationSpring_9Tests.xctest */,
-				BB388D092529FF4700A0C989 /* AnimationSpring_9UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +84,8 @@
 			children = (
 				BB388CEB2529FF3900A0C989 /* AppDelegate.swift */,
 				BB388CED2529FF3900A0C989 /* SceneDelegate.swift */,
+				BB54D47D252A1EB8009E1312 /* DataManager.swift */,
+				BB54D47F252A2B7D009E1312 /* Animation.swift */,
 				BB388CEF2529FF3900A0C989 /* ViewController.swift */,
 				BB388CF12529FF3900A0C989 /* Main.storyboard */,
 				BB388CF42529FF4600A0C989 /* Assets.xcassets */,
@@ -128,6 +113,14 @@
 			path = AnimationSpring_9UITests;
 			sourceTree = "<group>";
 		};
+		EA04E3B650B28E23F0249304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B07E903C259DF4DA54879734 /* Pods_AnimationSpring_9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB388D122529FF4700A0C989 /* Build configuration list for PBXNativeTarget "AnimationSpring_9" */;
 			buildPhases = (
+				158C9CE9FAEF3648C0A323A6 /* [CP] Check Pods Manifest.lock */,
 				BB388CE42529FF3900A0C989 /* Sources */,
 				BB388CE52529FF3900A0C989 /* Frameworks */,
 				BB388CE62529FF3900A0C989 /* Resources */,
+				6E1BE22D3B363907350EAB62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,42 +142,6 @@
 			productName = AnimationSpring_9;
 			productReference = BB388CE82529FF3900A0C989 /* AnimationSpring_9.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BB388CFD2529FF4700A0C989 /* AnimationSpring_9Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB388D152529FF4700A0C989 /* Build configuration list for PBXNativeTarget "AnimationSpring_9Tests" */;
-			buildPhases = (
-				BB388CFA2529FF4700A0C989 /* Sources */,
-				BB388CFB2529FF4700A0C989 /* Frameworks */,
-				BB388CFC2529FF4700A0C989 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB388D002529FF4700A0C989 /* PBXTargetDependency */,
-			);
-			name = AnimationSpring_9Tests;
-			productName = AnimationSpring_9Tests;
-			productReference = BB388CFE2529FF4700A0C989 /* AnimationSpring_9Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BB388D082529FF4700A0C989 /* AnimationSpring_9UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB388D182529FF4700A0C989 /* Build configuration list for PBXNativeTarget "AnimationSpring_9UITests" */;
-			buildPhases = (
-				BB388D052529FF4700A0C989 /* Sources */,
-				BB388D062529FF4700A0C989 /* Frameworks */,
-				BB388D072529FF4700A0C989 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB388D0B2529FF4700A0C989 /* PBXTargetDependency */,
-			);
-			name = AnimationSpring_9UITests;
-			productName = AnimationSpring_9UITests;
-			productReference = BB388D092529FF4700A0C989 /* AnimationSpring_9UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,14 +154,6 @@
 				TargetAttributes = {
 					BB388CE72529FF3900A0C989 = {
 						CreatedOnToolsVersion = 12.0.1;
-					};
-					BB388CFD2529FF4700A0C989 = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = BB388CE72529FF3900A0C989;
-					};
-					BB388D082529FF4700A0C989 = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = BB388CE72529FF3900A0C989;
 					};
 				};
 			};
@@ -220,8 +171,6 @@
 			projectRoot = "";
 			targets = (
 				BB388CE72529FF3900A0C989 /* AnimationSpring_9 */,
-				BB388CFD2529FF4700A0C989 /* AnimationSpring_9Tests */,
-				BB388D082529FF4700A0C989 /* AnimationSpring_9UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,21 +186,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB388CFC2529FF4700A0C989 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB388D072529FF4700A0C989 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		158C9CE9FAEF3648C0A323A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimationSpring_9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1BE22D3B363907350EAB62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationSpring_9/Pods-AnimationSpring_9-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationSpring_9/Pods-AnimationSpring_9-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimationSpring_9/Pods-AnimationSpring_9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB388CE42529FF3900A0C989 /* Sources */ = {
@@ -259,41 +236,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB388CF02529FF3900A0C989 /* ViewController.swift in Sources */,
+				BB54D47E252A1EB8009E1312 /* DataManager.swift in Sources */,
 				BB388CEC2529FF3900A0C989 /* AppDelegate.swift in Sources */,
+				BB54D480252A2B7D009E1312 /* Animation.swift in Sources */,
 				BB388CEE2529FF3900A0C989 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB388CFA2529FF4700A0C989 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB388D032529FF4700A0C989 /* AnimationSpring_9Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB388D052529FF4700A0C989 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB388D0E2529FF4700A0C989 /* AnimationSpring_9UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BB388D002529FF4700A0C989 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB388CE72529FF3900A0C989 /* AnimationSpring_9 */;
-			targetProxy = BB388CFF2529FF4700A0C989 /* PBXContainerItemProxy */;
-		};
-		BB388D0B2529FF4700A0C989 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB388CE72529FF3900A0C989 /* AnimationSpring_9 */;
-			targetProxy = BB388D0A2529FF4700A0C989 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BB388CF12529FF3900A0C989 /* Main.storyboard */ = {
@@ -366,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +383,7 @@
 		};
 		BB388D132529FF4700A0C989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43448228586E69E5F14F7A60 /* Pods-AnimationSpring_9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +403,7 @@
 		};
 		BB388D142529FF4700A0C989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EB222FEEAC51A164762FDE /* Pods-AnimationSpring_9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,90 +418,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BB388D162529FF4700A0C989 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 583RUSKJ3M;
-				INFOPLIST_FILE = AnimationSpring_9Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Anzhelika.AnimationSpring-9Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationSpring_9.app/AnimationSpring_9";
-			};
-			name = Debug;
-		};
-		BB388D172529FF4700A0C989 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 583RUSKJ3M;
-				INFOPLIST_FILE = AnimationSpring_9Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Anzhelika.AnimationSpring-9Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationSpring_9.app/AnimationSpring_9";
-			};
-			name = Release;
-		};
-		BB388D192529FF4700A0C989 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 583RUSKJ3M;
-				INFOPLIST_FILE = AnimationSpring_9UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Anzhelika.AnimationSpring-9UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimationSpring_9;
-			};
-			name = Debug;
-		};
-		BB388D1A2529FF4700A0C989 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 583RUSKJ3M;
-				INFOPLIST_FILE = AnimationSpring_9UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Anzhelika.AnimationSpring-9UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimationSpring_9;
 			};
 			name = Release;
 		};
@@ -570,24 +438,6 @@
 			buildConfigurations = (
 				BB388D132529FF4700A0C989 /* Debug */,
 				BB388D142529FF4700A0C989 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB388D152529FF4700A0C989 /* Build configuration list for PBXNativeTarget "AnimationSpring_9Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB388D162529FF4700A0C989 /* Debug */,
-				BB388D172529FF4700A0C989 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB388D182529FF4700A0C989 /* Build configuration list for PBXNativeTarget "AnimationSpring_9UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB388D192529FF4700A0C989 /* Debug */,
-				BB388D1A2529FF4700A0C989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
